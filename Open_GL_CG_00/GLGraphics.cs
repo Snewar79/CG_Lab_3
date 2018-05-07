@@ -104,12 +104,12 @@ namespace Open_GL_CG_00
         public void Render()
         {
             drawTestQuad();
-            GL.PushMatrix();
-            GL.Translate(1, 1, 1);
-            GL.Rotate(45, Vector3.UnitZ);
-            GL.Scale(0.5f, 0.5f, 0.5f);
-            drawTestQuad();
-            GL.PopMatrix();
+          //  GL.PushMatrix();
+         //   GL.Translate(1, 1, 1);
+         //   GL.Rotate(45, Vector3.UnitZ);
+        //    GL.Scale(0.5f, 0.5f, 0.5f);
+        //    drawTestQuad();
+         //   GL.PopMatrix();
         }
 
 
@@ -141,7 +141,7 @@ namespace Open_GL_CG_00
             GL.GetProgram(BasicProgramID, GetProgramParameterName.LinkStatus, out status);
             Console.WriteLine(GL.GetProgramInfoLog(BasicProgramID));
 
-            float[] positionData = { -0.8f, -0.8f, 0.0f, 0.8f, -0.8f, 0.0f, 0.0f, 0.8f, 0.0f };
+            float[] positionData =  { -0.8f, -0.8f, 0.0f, 0.8f, -0.8f, 0.0f, 0.0f, 0.8f, 0.0f };
             float[] colorData = { 1.0f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f, 0.0f, 1.0f };
 
             GL.GenBuffers(2, vboHandlers);
