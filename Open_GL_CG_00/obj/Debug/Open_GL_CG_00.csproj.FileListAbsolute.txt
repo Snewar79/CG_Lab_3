@@ -1,0 +1,14 @@
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\Open_GL_CG_00.exe.config
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\Open_GL_CG_00.exe
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\Open_GL_CG_00.pdb
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\obj\Debug\Open_GL_CG_00.csprojResolveAssemblyReference.cache
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\obj\Debug\Open_GL_CG_00.Properties.Resources.resources
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\obj\Debug\Open_GL_CG_00.csproj.GenerateResource.Cache
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\obj\Debug\Open_GL_CG_00.exe
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\obj\Debug\Open_GL_CG_00.pdb
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\OpenTK.dll
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\OpenTK.GLControl.dll
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\OpenTK.pdb
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\OpenTK.xml
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\bin\Debug\OpenTK.GLControl.xml
+c:\users\администратор\documents\visual studio 2015\Projects\Open_GL_CG_00\Open_GL_CG_00\obj\Debug\Open_GL_CG_00.Form1.resources
