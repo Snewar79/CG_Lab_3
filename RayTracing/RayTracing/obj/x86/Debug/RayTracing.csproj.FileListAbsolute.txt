@@ -1,0 +1,13 @@
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\RayTracing.exe
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\RayTracing.pdb
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\OpenTK.dll
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\OpenTK.pdb
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\OpenTK.xml
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\obj\x86\Debug\RayTracing.csprojResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\obj\x86\Debug\RayTracing.Form1.resources
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\obj\x86\Debug\RayTracing.Properties.Resources.resources
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\obj\x86\Debug\RayTracing.csproj.GenerateResource.Cache
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\obj\x86\Debug\RayTracing.exe
+C:\Users\Администратор\Desktop\GrafLab3\RayTracing\RayTracing\obj\x86\Debug\RayTracing.pdb
