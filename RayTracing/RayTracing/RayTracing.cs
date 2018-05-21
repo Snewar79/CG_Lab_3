@@ -18,14 +18,14 @@ namespace RayTracing
 
         public float latitude = 180; 
         public float longitude = 360;
-        public float radius = 5f;
+        public float radius = 10f;
 
         public float aspect;
 
 
 
         int VertexArrayID;
-        Vector3 cameraPosition = new Vector3(0f, 0, 0.8f);
+        Vector3 cameraPosition = new Vector3(0f, 0, 3f);
         Vector3 cameraDirection = new Vector3(0, 0, 0);
         Vector3 cameraUp = new Vector3(0, 0, 1);
         float[] vertdata = { -1f, -1f, 0.0f, -1f, 1f, 0.0f, 1f, -1f, 0.0f , 1f, 1f, 0f };
@@ -99,12 +99,23 @@ namespace RayTracing
             GL.Vertex3(0.0f, 1.0f, -1.0f);
             GL.End();
             
+            Matrix4 projMat = Matrix4.CreatePerspectiveFieldOfView((float)(0.5 * Math.PI),
+             (float)aspect,
+             0.1f,
+             1000.0f);
+
+            Matrix4 viewMatrix = Matrix4.LookAt(cameraPosition, new Vector3(0,0,0), new Vector3(0, 0, 1));
+
 
 
 
             GL.UseProgram(BasicProgramID);
             GL.Uniform1(GL.GetUniformLocation(BasicProgramID, "aspect"), aspect);
             GL.Uniform3(GL.GetUniformLocation(BasicProgramID, "campos"), cameraPosition);
+            GL.UniformMatrix4(GL.GetUniformLocation(BasicProgramID, "projMat"), false, ref projMat);
+            GL.UniformMatrix4(GL.GetUniformLocation(BasicProgramID, "viewMat"), false, ref viewMatrix);
+
+
 
             GL.DrawArrays(PrimitiveType.TriangleStrip, 0, 4);
             GL.UseProgram(0);
